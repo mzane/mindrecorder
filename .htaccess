@@ -1,0 +1,21 @@
+# Make php5 the default
+AddType x-mapp-php5 .php
+AddHandler x-mapp-php5 .php
+
+# deaktiviert die "Namensvervollständigung" bzw. das "autom. Finden ähnlicher Dateiennamen":
+CheckSpelling off
+
+
+Options -MultiViews
+RewriteEngine on
+
+# Redirect from www. to .
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+# todo: Redirect from /index.php to /
+#RewriteRule ^(.*)$ index.php [QSA,L]
+
+
+# 404
+#ErrorDocument 404 /error404.php
