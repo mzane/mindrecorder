@@ -48,6 +48,7 @@ if (isset($_COOKIE["mindCookieUserEmail"]) && strpos($_COOKIE["mindCookieUserEma
 						<li>Gedanken mit Labels versehen, um diese schnell zu finden</li>
 					</ul>
 					<p><a href="#mind-intro-video" id="link-mind-intro-video" class="bold">&rArr; Das Einf&uuml;hrungsvideo zu MIND recorder ansehen!</a></p>
+					<p class="forkme"><a href="https://github.com/mzane/mindrecorder" target="_blank">Fork me on github!</a></p>
 					<div id="md-mind-intro-video" title="Einf&uuml;hrungsvideo zu MIND recorder">
 						<script type="text/javascript">
 							swfobject.embedSWF("http://www.youtube.com/v/O2MfEHhczH4?fs=1&amp;hl=de_DE&amp;rel=0", "mind-intro-video", "640", "510", "9.0.0", "static/swf/expressInstall.swf");

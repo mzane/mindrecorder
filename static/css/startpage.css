@@ -61,6 +61,11 @@ label.error {
 	font: bold 14px/18px arial,verdana,helvetica,sans-serif !important;
 }
 
+.forkme {
+	margin-top: 30px;
+	text-align: center;
+}
+
 /* CONTENT */
 #wrapper {
 	margin-right: auto;

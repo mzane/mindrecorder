@@ -340,6 +340,9 @@ if (!$_SESSION["login"] || $_SESSION["activated"] == "0") {
 				<h2>Impressum</h2>
 				<p>Inhaber und Betreiber dieses Dienstes:<br><strong>Matthias Krumm,<br />matthiaskrumm [&auml;t] mindrecorder [punkt] net</strong></p>
 				<p>Der Inhaber ist nicht f&uuml;r den Inhalt der Nutzer verantwortlich. Der Inhaber distanziert sich ausdr&uuml;cklich von den Inhalten der Nutzer.</p>
+
+				<hr style="margin-top: 10px;">
+				<p style="text-align: center;"><strong><a href="https://github.com/mzane/mindrecorder" target="_blank">Fork me on github!</a></strong></p>
 			</div>
 		</div>
 
